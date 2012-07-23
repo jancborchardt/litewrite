@@ -4,6 +4,8 @@
 
 Based on [Notes](http://nv.github.com/notes) made by [Nikita Vasilyev](http://elv1s.ru) for [10K Apart 2010](http://10k.aneventapart.com/1/Entry/72).
 
+Typefaces: [Open Sans](http://www.google.com/webfonts/specimen/Open+Sans) by Steve Matteson, [Alegreya](http://www.huertatipografica.com.ar/tipografias/alegreya/ejemplos.html) by Juan Pablo del Peral
+
 Backgrounds by [Subtle Patterns](http://subtlepatterns.com): [Light paper fibers](http://subtlepatterns.com/?p=1311) by Jorge Fuentes, [Broken noise](http://subtlepatterns.com/?p=852) by Vincent Klaiber
 
 
