@@ -1,5 +1,5 @@
 html, body {
-	position:absolute; height:100%; width:100%; margin:0; padding:0;
+    position:absolute; height:100%; width:100%; margin:0; padding:0;
 	background:#eee; color:#000;
 }
 
@@ -35,6 +35,7 @@ html, body {
 #aside .selected { color:#000; font-weight:bold; }
 
 #add { display:inline-block; width:60%; font-size:120%; font-weight:bold; color:#000; }
+#add:hover, #add:focus { color:#777; }
 #add:hover:after, #add:focus:after { content:' +'; }
 
 #entries { height:80%; overflow-y:auto; }
@@ -45,14 +46,17 @@ html, body {
 
 #color-toggle {
 	position:absolute; width:3em; height:3em; top:-2.5em; left:-2.5em;
-	background:#181818; box-shadow:0 1px 0 #444; border-radius:50%;
+	background:#1b1b1b; border-radius:50%;
 }
+#color-toggle:hover, #color-toggle:focus { background:#777; }
 .dark #editor { background:#1b1b1b url(broken_noise.png) repeat; color:#eee; text-shadow:0 1px 0 #444; }
 .dark, .dark #aside a, .dark #add, .dark #serif-toggle { color:#bbb; text-shadow:0 1px 0 #444; }
-.dark #aside a:hover, .dark #aside a:focus, .dark #aside .selected { color:#eee; }
-.dark #color-toggle { background:#bbb; box-shadow:0 1px 0 #ddd; }
+.dark #aside a:hover, .dark #aside a:focus, .dark #aside .selected, .dark #add:hover, .dark #add:focus, .dark #serif-toggle:hover, .dark #serif-toggle:focus { color:#eee; }
+.dark #color-toggle { background:#bbb; }
+.dark #color-toggle:hover { background:#eee; }
 
 #serif-toggle { position:absolute; font-size:3em; top:-.9em; left:.7em; padding:0; }
+#serif-toggle:hover, #serif-toggle:focus { color:#777; }
 #serif-toggle, .serif #editor { font-family:'Alegreya',Georgia,serif; font-weight:400; }
 .serif #serif-toggle { font-family:'Open Sans',Frutiger,sans-serif; top:-.95em; left:.75em; }
 .serif #aside a, .dark #add, .dark {  }

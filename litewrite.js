@@ -46,12 +46,16 @@ function check() {
 	var hash = location.hash
 	if (hash) {
 		id = hash.slice(1)
-		if (id in localStorage) {
+		if(id in localStorage) {
 			show(id)
 		}
 	} else {
-		show(localStorage.getItem('current-document'))
-		location.hash = '#'+localStorage.getItem('current-document')
+        if('current-document' in localStorage) {
+            show(localStorage.getItem('current-document'))
+            location.hash = '#'+localStorage.getItem('current-document')
+        } else {
+            create()
+        }
 	}
 	updateList()
 	select()
@@ -82,7 +86,7 @@ function highlightSelected() {
 
 function colorToggle() {
 	var body = document.getElementsByTagName('body')[0]
-	if(body.className == 'dark') {
+	if(body.className.indexOf('dark') != -1) {
 		body.className = localStorage.getItem('typeface')
 		localStorage.setItem('bgcolor', '')
 	}
@@ -94,7 +98,7 @@ function colorToggle() {
 
 function serifToggle() {
     var body = document.getElementsByTagName('body')[0]
-	if(body.className == 'serif') {
+	if(body.className.indexOf('serif') != -1) {
 		body.className = localStorage.getItem('bgcolor')
 		localStorage.setItem('typeface', '')
 	}
