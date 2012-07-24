@@ -12,7 +12,7 @@ html, body {
 #editor {
 	-webkit-box-sizing:border-box; -moz-box-sizing:border-box; -o-box-sizing:border-box; -ms-box-sizing:border-box; box-sizing:border-box;
 	position:absolute; width:100%; height:100%; padding:5% 20%;
-	background:#fcfcfc url(lightpaperfibers.png) repeat; font:normal 1.5em/150% 'Open Sans',Frutiger,sans-serif; text-shadow:0 1px 0 #fff;
+	background:#fcfcfc url(lightpaperfibers.png) repeat; font:normal 1.5em/160% 'Open Sans',Frutiger,sans-serif; text-shadow:0 1px 0 #fff;
 	outline:none; overflow:auto; border:none; resize:none;
 }
 #editor:first-line { font-size:2em; line-height:2.4em; font-weight:bold; } /* need to fix this for when it's a div */
@@ -55,9 +55,9 @@ html, body {
 .dark #color-toggle { background:#bbb; }
 .dark #color-toggle:hover { background:#eee; }
 
-#serif-toggle { position:absolute; font-size:3em; top:-.9em; left:.7em; padding:0; }
+#serif-toggle { position:absolute; font-family:'Alegreya',Georgia,serif; font-size:3em; top:-.9em; left:.7em; padding:0; }
 #serif-toggle:hover, #serif-toggle:focus { color:#777; }
-#serif-toggle, .serif #editor { font-family:'Alegreya',Georgia,serif; font-weight:400; }
+.serif #editor { font:normal 1.7em/150% 'Alegreya',Georgia,serif; }
 .serif #serif-toggle { font-family:'Open Sans',Frutiger,sans-serif; top:-.95em; left:.75em; }
 .serif #aside a, .dark #add, .dark {  }
 .serif #aside a:hover, .dark #aside a:focus, .dark #aside .selected {  }
