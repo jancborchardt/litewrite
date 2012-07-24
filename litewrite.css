@@ -45,7 +45,7 @@ html, body {
 #credits a { display:inline; padding:0; }
 
 #color-toggle {
-	position:absolute; width:3em; height:3em; top:-2.5em; left:-2.5em;
+	position:absolute; width:3em; height:3em; top:-3em; left:-3em;
 	background:#1b1b1b; border-radius:50%;
 }
 #color-toggle:hover, #color-toggle:focus { background:#777; }
@@ -55,10 +55,10 @@ html, body {
 .dark #color-toggle { background:#bbb; }
 .dark #color-toggle:hover { background:#eee; }
 
-#serif-toggle { position:absolute; font-family:'Alegreya',Georgia,serif; font-size:3em; top:-.9em; left:.7em; padding:0; }
+#serif-toggle { position:absolute; font-family:'Alegreya',Georgia,serif; font-size:3em; top:-.7em; left:.5em; padding:0; line-height:1em; }
 #serif-toggle:hover, #serif-toggle:focus { color:#777; }
 .serif #editor { font:normal 1.7em/150% 'Alegreya',Georgia,serif; }
-.serif #serif-toggle { font-family:'Open Sans',Frutiger,sans-serif; top:-.95em; left:.75em; }
+.serif #serif-toggle { font-family:'Open Sans',Frutiger,sans-serif; top:-.75em; left:.55em; }
 .serif #aside a, .dark #add, .dark {  }
 .serif #aside a:hover, .dark #aside a:focus, .dark #aside .selected {  }
 
