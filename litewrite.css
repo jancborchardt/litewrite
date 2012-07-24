@@ -34,7 +34,7 @@ html, body {
 #aside a:hover, #aside a:focus { color:#000; }
 #aside .selected { color:#000; font-weight:bold; }
 
-#add { display:inline-block; width:60%; font-size:120%; font-weight:bold; color:#000; }
+#add { display:inline-block; width:70%; font-size:120%; font-weight:bold; color:#000; }
 #add:hover:before, #add:focus:before { content:'+ '; }
 #add:hover, #add:focus { color:#777; margin-left:-.9em; }
 
