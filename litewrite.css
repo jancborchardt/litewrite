@@ -63,5 +63,7 @@ html, body {
 .serif #aside a:hover, .dark #aside a:focus, .dark #aside .selected {  }
 
 
+::selection { background-color:yellow; }
+
 ::-webkit-scrollbar { width:.2em; color:rgba(50,50,50,.3); }
 ::-webkit-scrollbar-track-piece { background-color:transparent; }
